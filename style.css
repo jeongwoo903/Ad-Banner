@@ -1,0 +1,48 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ad_Banner {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(156, 156, 156);
+  border-radius: 15px;
+  padding: 35px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: -0.025em;
+  color: rgb(71, 71, 71);
+}
+
+.para {
+  color: rgb(71, 71, 71);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  letter-spacing: 0.01em;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  height: 65px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  background: linear-gradient(90deg, #ff8806 0%, #fb07f3 100%);
+}
